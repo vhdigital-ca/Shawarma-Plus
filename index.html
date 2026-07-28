@@ -388,9 +388,9 @@
     <div class="btn-order-wrap">
       <button class="btn-order" id="order-toggle" onclick="toggleOrderMenu()">Commander en ligne</button>
       <div class="order-dropdown" id="order-dropdown">
-        <a href="#" id="link-ubereats"><span class="platform-dot dot-uber"></span> Uber Eats</a>
+        <a href="https://www.ubereats.com/ca/store/shawarma-%26-plus/R3tiw0CdWVS34tOQZBsmyA?diningMode=PICKUP&ps=1&rwg_token=AE37R_gyhMgDBTCLBM06RQICnlHX-YwpmYnx0ZaEigp8WYoK7w77eBehrcyFI-g9KSgV5RkjOHcxRtidXe0BBll-VOisp4y_ZQ%3D%3D&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas" id="link-ubereats"><span class="platform-dot dot-uber"></span> Uber Eats</a>
         <a href="https://www.doordash.com/store/shawarma-et-plus-gatineau-24690250/" target="_blank" rel="noopener" id="link-doordash"><span class="platform-dot dot-doordash"></span> DoorDash</a>
-        <a href="#" id="link-skip"><span class="platform-dot dot-skip"></span> Skip The Dishes</a>
+        <a href="https://www.skipthedishes.com/fr/shawarma-et-plus?serviceType=collection&utm_source=google&utm_medium=organic&utm_campaign=foodorder" id="link-skip"><span class="platform-dot dot-skip"></span> Skip The Dishes</a>
       </div>
     </div>
   </div>
@@ -649,9 +649,9 @@
     <h2>Envie de chawarma ce soir?</h2>
     <p>Commandez en ligne sur votre plateforme préférée et faites-vous livrer.</p>
     <div class="final-order-buttons">
-      <a href="#" class="btn-platform" id="final-ubereats"><span class="platform-dot dot-uber"></span> Uber Eats</a>
+      <a href="https://www.ubereats.com/ca/store/shawarma-%26-plus/R3tiw0CdWVS34tOQZBsmyA?diningMode=PICKUP&ps=1&rwg_token=AE37R_gyhMgDBTCLBM06RQICnlHX-YwpmYnx0ZaEigp8WYoK7w77eBehrcyFI-g9KSgV5RkjOHcxRtidXe0BBll-VOisp4y_ZQ%3D%3D&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas" class="btn-platform" id="final-ubereats"><span class="platform-dot dot-uber"></span> Uber Eats</a>
       <a href="https://www.doordash.com/store/shawarma-et-plus-gatineau-24690250/" target="_blank" rel="noopener" class="btn-platform"><span class="platform-dot dot-doordash"></span> DoorDash</a>
-      <a href="#" class="btn-platform" id="final-skip"><span class="platform-dot dot-skip"></span> Skip The Dishes</a>
+      <a href="https://www.skipthedishes.com/fr/shawarma-et-plus?serviceType=collection&utm_source=google&utm_medium=organic&utm_campaign=foodorder" class="btn-platform" id="final-skip"><span class="platform-dot dot-skip"></span> Skip The Dishes</a>
     </div>
   </div>
 </section>
@@ -674,7 +674,7 @@
   });
 
   // Liens Uber Eats / Skip à configurer une fois confirmés avec le restaurant
-  ['link-ubereats', 'final-ubereats', 'link-skip', 'final-skip'].forEach(id => {
+  ['link-skip', 'final-skip'].forEach(id => {
     const el = document.getElementById(id);
     if (el) {
       el.addEventListener('click', (e) => {
